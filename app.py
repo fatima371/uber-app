@@ -24,3 +24,7 @@ data_load_state.text('Loading data...done!')
 
 st.subheader('Raw data')
 st.write(data)
+if st.button('Say hello'):
+    st.write('Why hello there')
+else:
+    st.write('Goodbye')
